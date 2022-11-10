@@ -16,8 +16,8 @@ int main()
     sum = angle1 + angle2 + angle3;
 
     /*
-     * If sum of angles is 180 and
-     * angle1, angle2, angle3 is not 0 then
+     * If sum of the angles are 180 and
+     * angle1, angle2, angle3 is no> 0 then
      * triangle is valid.
      */
     if(sum == 180 && angle1 > 0 && angle2 > 0 && angle3 > 0)
